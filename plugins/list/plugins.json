@@ -1,194 +1,1118 @@
 [
   {
-    "id": "v1",
+    "id": "1",
     "name": "Themer",
     "author": "Vendicated",
     "repo": "Vendicated/AliucordPlugins",
     "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/Themer.zip",
     "desc": "Motor de personalização visual avançado para aplicação de temas customizados na interface.",
-    "tags": [
-      "UI",
-      "Customização"
-    ]
+    "tags": ["UI", "Customização"]
   },
   {
-    "id": "v2",
+    "id": "2",
     "name": "MessageLogger",
     "author": "Vendicated",
     "repo": "Vendicated/AliucordPlugins",
     "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/MessageLogger.zip",
     "desc": "Registra localmente mensagens excluídas e editadas para auditoria e consulta posterior.",
-    "tags": [
-      "Privacidade",
-      "Mensagens"
-    ]
+    "tags": ["Privacidade", "Mensagens"]
   },
   {
-    "id": "v3",
+    "id": "3",
     "name": "UpdateAll",
     "author": "Vendicated",
     "repo": "Vendicated/AliucordPlugins",
     "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/UpdateAll.zip",
     "desc": "Automatiza o processo de atualização de todos os plugins instalados no aplicativo.",
-    "tags": [
-      "Sistema",
-      "Utilidades"
-    ]
+    "tags": ["Sistema", "Utilidades"]
   },
   {
-    "id": "v4",
+    "id": "4",
     "name": "DiscordBypass",
     "author": "Vendicated",
     "repo": "Vendicated/AliucordPlugins",
     "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/DiscordBypass.zip",
     "desc": "Remove restrições artificiais do cliente oficial e desabilita pop-ups intrusivos.",
-    "tags": [
-      "Sistema",
-      "Fixes"
-    ]
+    "tags": ["Sistema", "Fixes"]
   },
   {
-    "id": "v5",
+    "id": "5",
     "name": "NoTrack",
     "author": "Vendicated",
     "repo": "Vendicated/AliucordPlugins",
     "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/NoTrack.zip",
     "desc": "Desabilita o envio de métricas de telemetria e rastreamento para os servidores oficiais.",
-    "tags": [
-      "Privacidade",
-      "Sistema"
-    ]
+    "tags": ["Privacidade", "Sistema"]
   },
   {
-    "id": "v6",
+    "id": "6",
     "name": "CrashHandler",
     "author": "Vendicated",
     "repo": "Vendicated/AliucordPlugins",
     "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/CrashHandler.zip",
     "desc": "Intercepta falhas críticas do aplicativo e gera relatórios de erro detalhados para depuração.",
-    "tags": [
-      "Dev",
-      "Sistema"
-    ]
+    "tags": ["Dev", "Sistema"]
   },
   {
-    "id": "j1",
+    "id": "7",
+    "name": "EmojiUtility",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/EmojiUtility.zip",
+    "desc": "Adiciona utilitários de emoji como clonagem e download de emojis personalizados.",
+    "tags": ["Utilidades", "Emoji"]
+  },
+  {
+    "id": "8",
+    "name": "MessageLinkEmbeds",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/MessageLinkEmbeds.zip",
+    "desc": "Converte links de mensagens em embeds visuais dentro do chat.",
+    "tags": ["Mensagens", "UI"]
+  },
+  {
+    "id": "9",
+    "name": "BetterSpotify",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/BetterSpotify.zip",
+    "desc": "Integração aprimorada com Spotify incluindo funcionalidade de ouvir junto.",
+    "tags": ["Integração", "Mídia"]
+  },
+  {
+    "id": "10",
+    "name": "ViewProfileImages",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/ViewProfileImages.zip",
+    "desc": "Permite abrir avatares e banners de usuários/servidores ao tocar neles.",
+    "tags": ["UI", "Perfil"]
+  },
+  {
+    "id": "11",
+    "name": "DedicatedPluginSettings",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/DedicatedPluginSettings.zip",
+    "desc": "Adiciona configurações dedicadas de plugins na tela principal de ajustes.",
+    "tags": ["Sistema", "UI"]
+  },
+  {
+    "id": "12",
+    "name": "TapTap",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/TapTap.zip",
+    "desc": "Toque duplo em mensagens para responder rapidamente ou editar suas próprias mensagens.",
+    "tags": ["Mensagens", "UI"]
+  },
+  {
+    "id": "13",
+    "name": "AnimateApngs",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/AnimateApngs.zip",
+    "desc": "Anima corretamente imagens APNG no aplicativo.",
+    "tags": ["UI", "Mídia"]
+  },
+  {
+    "id": "14",
+    "name": "CheckLinks",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/CheckLinks.zip",
+    "desc": "Verifica links usando a API VirusTotal e mostra resultados no modal de confirmação.",
+    "tags": ["Segurança", "Utilidades"]
+  },
+  {
+    "id": "15",
+    "name": "UrbanDictionary",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/UrbanDictionary.zip",
+    "desc": "Consulta o Urban Dictionary para definições de termos.",
+    "tags": ["Utilidades", "Integração"]
+  },
+  {
+    "id": "16",
+    "name": "Hastebin",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/Hastebin.zip",
+    "desc": "Cria pastas no Hastebin ou espelhos favoritos diretamente do Discord.",
+    "tags": ["Utilidades", "Produtividade"]
+  },
+  {
+    "id": "17",
     "name": "ShowHiddenChannels",
     "author": "Juby210",
     "repo": "Juby210/Aliucord-plugins",
     "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/ShowHiddenChannels.zip",
     "desc": "Exibe canais restritos na lista de servidores, revelando sua existência visualmente.",
-    "tags": [
-      "UI",
-      "Utilidades"
-    ]
+    "tags": ["UI", "Utilidades"]
   },
   {
-    "id": "j2",
+    "id": "18",
     "name": "ViewDeletedMessages",
     "author": "Juby210",
     "repo": "Juby210/Aliucord-plugins",
     "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/ViewDeletedMessages.zip",
     "desc": "Mantém mensagens apagadas visíveis no histórico do chat local de forma discreta.",
-    "tags": [
-      "Privacidade",
-      "Mensagens"
-    ]
+    "tags": ["Privacidade", "Mensagens"]
   },
   {
-    "id": "j3",
+    "id": "19",
     "name": "PronounDB",
     "author": "Juby210",
     "repo": "Juby210/Aliucord-plugins",
     "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/PronounDB.zip",
     "desc": "Integração externa para exibir pronomes preferidos dos usuários diretamente em seus perfis.",
-    "tags": [
-      "UI",
-      "Integração"
-    ]
+    "tags": ["UI", "Integração"]
   },
   {
-    "id": "j4",
+    "id": "20",
     "name": "Translate",
     "author": "Juby210",
     "repo": "Juby210/Aliucord-plugins",
     "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/Translate.zip",
     "desc": "Tradução nativa e instantânea de mensagens estrangeiras utilizando a API do Google Tradutor.",
-    "tags": [
-      "Mensagens",
-      "Utilidades"
-    ]
+    "tags": ["Mensagens", "Utilidades"]
   },
   {
-    "id": "z1",
+    "id": "21",
+    "name": "BetterCodeBlocks",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/BetterCodeBlocks.zip",
+    "desc": "Melhora blocos de código adicionando novas linguagens e melhorando as existentes.",
+    "tags": ["Dev", "UI"]
+  },
+  {
+    "id": "22",
+    "name": "BetterStatusIndicators",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/BetterStatusIndicators.zip",
+    "desc": "Adiciona personalização avançada para indicadores de status e plataforma.",
+    "tags": ["UI", "Customização"]
+  },
+  {
+    "id": "23",
+    "name": "CustomNicknameFormat",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/CustomNicknameFormat.zip",
+    "desc": "Permite personalizar o formato de exibição de apelidos nos servidores.",
+    "tags": ["UI", "Customização"]
+  },
+  {
+    "id": "24",
+    "name": "CustomTimestamps",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/CustomTimestamps.zip",
+    "desc": "Formato de timestamps personalizado em todo o aplicativo.",
+    "tags": ["UI", "Customização"]
+  },
+  {
+    "id": "25",
+    "name": "Experiments",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/Experiments.zip",
+    "desc": "Mostra a aba oculta de Opções de Desenvolvedor com experimentos do Discord.",
+    "tags": ["Dev", "Sistema"]
+  },
+  {
+    "id": "26",
+    "name": "MoreSlashCommands",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/MoreSlashCommands.zip",
+    "desc": "Adiciona mais comandos de barra incluindo lenny, mock, spoilerfiles, owofiy, upper, lower, reverse.",
+    "tags": ["Utilidades", "Mensagens"]
+  },
+  {
+    "id": "27",
+    "name": "NewEmojis",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/NewEmojis.zip",
+    "desc": "Adiciona novos emojis que estão faltando na versão antiga do Discord.",
+    "tags": ["UI", "Emoji"]
+  },
+  {
+    "id": "28",
+    "name": "NoAutoReplyMention",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/NoAutoReplyMention.zip",
+    "desc": "Desabilita a menção automática em respostas por padrão.",
+    "tags": ["Mensagens", "Privacidade"]
+  },
+  {
+    "id": "29",
+    "name": "NoCopyEmbeds",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/NoCopyEmbeds.zip",
+    "desc": "Desabilita a cópia de texto de embeds.",
+    "tags": ["Mensagens", "UI"]
+  },
+  {
+    "id": "30",
+    "name": "OwoifyEverything",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/OwoifyEverything.zip",
+    "desc": "Transforma todo o Discord em estilo owo/uwu.",
+    "tags": ["Diversão", "Mensagens"]
+  },
+  {
+    "id": "31",
+    "name": "RemoveZoomLimit",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/RemoveZoomLimit.zip",
+    "desc": "Remove o limite máximo e mínimo de zoom em imagens.",
+    "tags": ["UI", "Utilidades"]
+  },
+  {
+    "id": "32",
+    "name": "RestoreImageLinks",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/RestoreImageLinks.zip",
+    "desc": "Restaura links de imagens no chat.",
+    "tags": ["Mensagens", "UI"]
+  },
+  {
+    "id": "33",
+    "name": "ShowReplyMention",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/ShowReplyMention.zip",
+    "desc": "Corrige a exibição do @ em respostas.",
+    "tags": ["Mensagens", "Fixes"]
+  },
+  {
+    "id": "34",
+    "name": "SquareAvatars",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/SquareAvatars.zip",
+    "desc": "Exibe avatares quadrados em vez de circulares.",
+    "tags": ["UI", "Customização"]
+  },
+  {
+    "id": "35",
+    "name": "Tags",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/Tags.zip",
+    "desc": "Permite enviar tags personalizadas rapidamente.",
+    "tags": ["Utilidades", "Mensagens"]
+  },
+  {
+    "id": "36",
+    "name": "UserDetails",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/UserDetails.zip",
+    "desc": "Exibe quando o usuário criou a conta, entrou no servidor e última mensagem.",
+    "tags": ["UI", "Informações"]
+  },
+  {
+    "id": "37",
+    "name": "ViewRaw",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/ViewRaw.zip",
+    "desc": "Visualiza e copia a mensagem bruta e markdown.",
+    "tags": ["Dev", "Mensagens"]
+  },
+  {
+    "id": "38",
     "name": "RoleColorEverywhere",
     "author": "zt64",
     "repo": "zt64/aliucord-plugins",
     "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/RoleColorEverywhere.zip",
     "desc": "Aplica a cor do cargo predominante em menções, canais de voz e interface geral.",
-    "tags": [
-      "UI",
-      "Customização"
-    ]
+    "tags": ["UI", "Customização"]
   },
   {
-    "id": "z2",
+    "id": "39",
     "name": "SpotifyListenAlong",
     "author": "zt64",
     "repo": "zt64/aliucord-plugins",
     "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/SpotifyListenAlong.zip",
     "desc": "Habilita a audição conjunta no Spotify sem a exigência de uma assinatura Premium ativa.",
-    "tags": [
-      "Integração",
-      "Mídia"
-    ]
+    "tags": ["Integração", "Mídia"]
   },
   {
-    "id": "z4",
+    "id": "40",
     "name": "AccountSwitcher",
     "author": "zt64",
     "repo": "zt64/aliucord-plugins",
     "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/AccountSwitcher.zip",
     "desc": "Interface otimizada para alternância rápida entre múltiplas sessões autenticadas no dispositivo.",
-    "tags": [
-      "Utilidades",
-      "Sistema"
-    ]
+    "tags": ["Utilidades", "Sistema"]
   },
   {
-    "id": "x1",
+    "id": "41",
+    "name": "AlwaysAnimate",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/AlwaysAnimate.zip",
+    "desc": "Permite fazer ícones de servidor e avatares de usuário animarem sempre.",
+    "tags": ["UI", "Customização"]
+  },
+  {
+    "id": "42",
+    "name": "AnonymousFiles",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/AnonymousFiles.zip",
+    "desc": "Randomiza nomes de arquivos ao fazer upload.",
+    "tags": ["Privacidade", "Utilidades"]
+  },
+  {
+    "id": "43",
+    "name": "AppendGifAsUrl",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/AppendGifAsUrl.zip",
+    "desc": "Faz com que selecionar um GIF adicione como URL em vez de enviar e limpar a mensagem.",
+    "tags": ["Mensagens", "Utilidades"]
+  },
+  {
+    "id": "44",
+    "name": "AvatarMention",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/AvatarMention.zip",
+    "desc": "Faz tocar no avatar de uma mensagem mencionar aquele usuário.",
+    "tags": ["Mensagens", "UI"]
+  },
+  {
+    "id": "45",
+    "name": "BanCount",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/BanCount.zip",
+    "desc": "Mostra o número total de usuários banidos na página de banimentos.",
+    "tags": ["Moderação", "UI"]
+  },
+  {
+    "id": "46",
+    "name": "ChannelInvites",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/ChannelInvites.zip",
+    "desc": "Mostra informações úteis no embed de convite.",
+    "tags": ["UI", "Informações"]
+  },
+  {
+    "id": "47",
+    "name": "CharCounter",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/CharCounter.zip",
+    "desc": "Adiciona um contador de caracteres na caixa de mensagem.",
+    "tags": ["Utilidades", "Mensagens"]
+  },
+  {
+    "id": "48",
+    "name": "CompactMode",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/CompactMode.zip",
+    "desc": "Modifica o chat para ter uma aparência mais compacta com várias opções.",
+    "tags": ["UI", "Customização"]
+  },
+  {
+    "id": "49",
+    "name": "CursorInput",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/CursorInput.zip",
+    "desc": "Faz emojis, menções e outros serem adicionados na posição do cursor.",
+    "tags": ["Mensagens", "Utilidades"]
+  },
+  {
+    "id": "50",
+    "name": "CustomNoticeDuration",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/CustomNoticeDuration.zip",
+    "desc": "Permite definir o tempo de exibição de notificações no aplicativo.",
+    "tags": ["UI", "Customização"]
+  },
+  {
+    "id": "51",
+    "name": "CustomStatusPresets",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/CustomStatusPresets.zip",
+    "desc": "Adiciona presets ao menu de status personalizado.",
+    "tags": ["Utilidades", "UI"]
+  },
+  {
+    "id": "52",
+    "name": "DMCategories",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/DMCategories.zip",
+    "desc": "Adiciona a capacidade de criar categorias para DMs.",
+    "tags": ["UI", "Organização"]
+  },
+  {
+    "id": "53",
+    "name": "DisablePreviewsOnData",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/DisablePreviewsOnData.zip",
+    "desc": "Desabilita prévias de imagens e vídeos em dados móveis para economizar.",
+    "tags": ["Utilidades", "Sistema"]
+  },
+  {
+    "id": "54",
+    "name": "FavoriteChannels",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/FavoriteChannels.zip",
+    "desc": "Adiciona seus canais favoritos ao topo da lista de canais.",
+    "tags": ["UI", "Organização"]
+  },
+  {
+    "id": "55",
+    "name": "FolderOpacity",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/FolderOpacity.zip",
+    "desc": "Adiciona opção nas configurações de pasta de servidores para definir opacidade.",
+    "tags": ["UI", "Customização"]
+  },
+  {
+    "id": "56",
+    "name": "Frecents",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/Frecents.zip",
+    "desc": "Adiciona suporte para GIFs, emojis, stickers favoritos e itens recentes.",
+    "tags": ["Utilidades", "UI"]
+  },
+  {
+    "id": "57",
+    "name": "InviteDetails",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/InviteDetails.zip",
+    "desc": "Adiciona informações úteis ao embed de convite.",
+    "tags": ["UI", "Informações"]
+  },
+  {
+    "id": "58",
+    "name": "MessageWidthFix",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/MessageWidthFix.zip",
+    "desc": "Corrige a largura em embeds e stickers para fazer o toque longo funcionar.",
+    "tags": ["Fixes", "UI"]
+  },
+  {
+    "id": "59",
+    "name": "NoBurnIn",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/NoBurnIn.zip",
+    "desc": "Adiciona opções para ocultar itens da barra superior e prevenir burn-in da tela.",
+    "tags": ["UI", "Sistema"]
+  },
+  {
+    "id": "60",
+    "name": "NoLinkify",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/NoLinkify.zip",
+    "desc": "Desabilita o destaque de números de telefone e endereços em mensagens.",
+    "tags": ["Privacidade", "UI"]
+  },
+  {
+    "id": "61",
+    "name": "PermissionsSync",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/PermissionsSync.zip",
+    "desc": "Adiciona a opção de sincronizar permissões do cliente desktop.",
+    "tags": ["Moderação", "Utilidades"]
+  },
+  {
+    "id": "62",
+    "name": "QuickStar",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/QuickStar.zip",
+    "desc": "Adiciona um botão de estrela no menu de contexto para reagir rapidamente.",
+    "tags": ["Utilidades", "Mensagens"]
+  },
+  {
+    "id": "63",
+    "name": "RestartButton",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/RestartButton.zip",
+    "desc": "Adiciona um botão para reiniciar o Aliucord na página de configurações.",
+    "tags": ["Sistema", "Utilidades"]
+  },
+  {
+    "id": "64",
+    "name": "SystemInfo",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/SystemInfo.zip",
+    "desc": "Adiciona um comando de barra /systeminfo com informações básicas do sistema.",
+    "tags": ["Utilidades", "Sistema"]
+  },
+  {
+    "id": "65",
+    "name": "SystemTheme",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/SystemTheme.zip",
+    "desc": "Sincroniza o tema do Discord com o tema do sistema.",
+    "tags": ["UI", "Sistema"]
+  },
+  {
+    "id": "66",
+    "name": "Token",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/Token.zip",
+    "desc": "Adiciona um comando de barra /token para mostrar seu token de conta.",
+    "tags": ["Dev", "Utilidades"]
+  },
+  {
+    "id": "67",
+    "name": "Weather",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/Weather.zip",
+    "desc": "Adiciona um comando de barra /weather para obter informações do clima.",
+    "tags": ["Utilidades", "Integração"]
+  },
+  {
+    "id": "68",
+    "name": "WiderScrollbar",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/WiderScrollbar.zip",
+    "desc": "Permite alterar a largura da barra de rolagem para facilitar o arrasto.",
+    "tags": ["UI", "Acessibilidade"]
+  },
+  {
+    "id": "69",
     "name": "NoTyping",
     "author": "X1nto",
     "repo": "X1nto/AliucordPlugins",
     "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/NoTyping.zip",
     "desc": "Bloqueia o envio do evento de digitação para os servidores, garantindo privacidade na escrita.",
-    "tags": [
-      "Privacidade",
-      "Mensagens"
-    ]
+    "tags": ["Privacidade", "Mensagens"]
   },
   {
-    "id": "x2",
+    "id": "70",
     "name": "WhoReacted",
     "author": "X1nto",
     "repo": "X1nto/AliucordPlugins",
     "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/WhoReacted.zip",
     "desc": "Exibe os avatares dos usuários que reagiram diretamente integrados ao balão da mensagem.",
-    "tags": [
-      "UI",
-      "Mensagens"
-    ]
+    "tags": ["UI", "Mensagens"]
   },
   {
-    "id": "x6",
+    "id": "71",
     "name": "PluginRepo",
     "author": "X1nto",
     "repo": "X1nto/AliucordPlugins",
     "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/PluginRepo.zip",
     "desc": "Interface nativa otimizada para download e gerenciamento direto de plugins comunitários.",
-    "tags": [
-      "Essencial",
-      "Sistema"
-    ]
+    "tags": ["Essencial", "Sistema"]
+  },
+  {
+    "id": "72",
+    "name": "AttachmentUtils",
+    "author": "X1nto",
+    "repo": "X1nto/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/AttachmentUtils.zip",
+    "desc": "Adiciona um menu de contexto aos anexos.",
+    "tags": ["Utilidades", "Mensagens"]
+  },
+  {
+    "id": "73",
+    "name": "Gnuify",
+    "author": "X1nto",
+    "repo": "X1nto/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/Gnuify.zip",
+    "desc": "Adiciona o prefixo GNU/ a cada palavra da frase.",
+    "tags": ["Diversão", "Mensagens"]
+  },
+  {
+    "id": "74",
+    "name": "LayoutController",
+    "author": "X1nto",
+    "repo": "X1nto/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/LayoutController.zip",
+    "desc": "Permite controlar o layout mobile do Discord.",
+    "tags": ["UI", "Customização"]
+  },
+  {
+    "id": "75",
+    "name": "NanomachinesSon",
+    "author": "X1nto",
+    "repo": "X1nto/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/NanomachinesSon.zip",
+    "desc": "Retorna uma copypasta do discurso político do Senador Armstrong.",
+    "tags": ["Diversão", "Mensagens"]
+  },
+  {
+    "id": "76",
+    "name": "Nitrospoof",
+    "author": "X1nto",
+    "repo": "X1nto/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/Nitrospoof.zip",
+    "desc": "Usa emojis Nitro sem ter Nitro.",
+    "tags": ["Utilidades", "Mensagens"]
+  },
+  {
+    "id": "77",
+    "name": "Stallman",
+    "author": "X1nto",
+    "repo": "X1nto/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/Stallman.zip",
+    "desc": "Substitui Linux na copypasta GNU/Linux com a frase desejada.",
+    "tags": ["Diversão", "Mensagens"]
+  },
+  {
+    "id": "78",
+    "name": "FirstMessage",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/FirstMessage.zip",
+    "desc": "Encontra a primeira mensagem de um usuário/canal com /firstmessage.",
+    "tags": ["Utilidades", "Mensagens"]
+  },
+  {
+    "id": "79",
+    "name": "OpenDebug",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/OpenDebug.zip",
+    "desc": "Abre o log de debug a partir do ícone de presente na visualização do chat.",
+    "tags": ["Dev", "Sistema"]
+  },
+  {
+    "id": "80",
+    "name": "SplitMessages",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/SplitMessages.zip",
+    "desc": "Divide mensagens maiores que 2000/4000 caracteres em múltiplas mensagens.",
+    "tags": ["Utilidades", "Mensagens"]
+  },
+  {
+    "id": "81",
+    "name": "ConfigurableStickerSizes",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/ConfigurableStickerSizes.zip",
+    "desc": "Torna os tamanhos de stickers configuráveis.",
+    "tags": ["UI", "Customização"]
+  },
+  {
+    "id": "82",
+    "name": "NoUppercase",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/NoUppercase.zip",
+    "desc": "Reverte cabeçalhos em maiúsculo em lugares comuns.",
+    "tags": ["UI", "Customização"]
+  },
+  {
+    "id": "83",
+    "name": "StreamerMode",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/StreamerMode.zip",
+    "desc": "Oculta informações identificáveis como email, telefone, nome e discriminadores.",
+    "tags": ["Privacidade", "UI"]
+  },
+  {
+    "id": "84",
+    "name": "NoNitroAvatars",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/NoNitroAvatars.zip",
+    "desc": "Oculta avatares por servidor em todos os lugares.",
+    "tags": ["UI", "Customização"]
+  },
+  {
+    "id": "85",
+    "name": "OpenProfileInReactions",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/OpenProfileInReactions.zip",
+    "desc": "Abre perfis de usuários nas listas de reações ao clicar.",
+    "tags": ["UI", "Utilidades"]
+  },
+  {
+    "id": "86",
+    "name": "NoBuiltInCommands",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/NoBuiltInCommands.zip",
+    "desc": "Remove os comandos de barra built-in do Discord.",
+    "tags": ["Sistema", "Utilidades"]
+  },
+  {
+    "id": "87",
+    "name": "HideMessages",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/HideMessages.zip",
+    "desc": "Deleta mensagens localmente até reiniciar.",
+    "tags": ["Privacidade", "Mensagens"]
+  },
+  {
+    "id": "88",
+    "name": "FixBlockedReplies",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/FixBlockedReplies.zip",
+    "desc": "Mostra autor da resposta e conteúdo de usuários bloqueados.",
+    "tags": ["Fixes", "Mensagens"]
+  },
+  {
+    "id": "89",
+    "name": "NoPingWidthLimit",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/NoPingWidthLimit.zip",
+    "desc": "Aumenta a largura máxima do rótulo de contagem de pings.",
+    "tags": ["UI", "Fixes"]
+  },
+  {
+    "id": "90",
+    "name": "BetterTm",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/BetterTm.zip",
+    "desc": "Substitui o emoji TM por um visível.",
+    "tags": ["UI", "Fixes"]
+  },
+  {
+    "id": "91",
+    "name": "NoTimestamps",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/NoTimestamps.zip",
+    "desc": "Oculta timestamps nas mensagens.",
+    "tags": ["UI", "Customização"]
+  },
+  {
+    "id": "92",
+    "name": "SlashNick",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/SlashNick.zip",
+    "desc": "Traz o comando /nick para o mobile.",
+    "tags": ["Utilidades", "Mensagens"]
+  },
+  {
+    "id": "93",
+    "name": "ClickableMentions",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/ClickableMentions.zip",
+    "desc": "Habilita clicar em menções de usuário/canal em todos os lugares.",
+    "tags": ["UI", "Utilidades"]
+  },
+  {
+    "id": "94",
+    "name": "Counters",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/Counters.zip",
+    "desc": "Mostra contagem de servidores/amigos online na lista de servidores.",
+    "tags": ["UI", "Informações"]
+  },
+  {
+    "id": "95",
+    "name": "NormalizeNames",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/NormalizeNames.zip",
+    "desc": "Exibe apelidos/nomes de usuário com caracteres especiais revertidos para normal.",
+    "tags": ["UI", "Utilidades"]
+  },
+  {
+    "id": "96",
+    "name": "Gestures",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/Gestures.zip",
+    "desc": "Adiciona gestos de deslizar no campo de entrada de texto.",
+    "tags": ["UI", "Utilidades"]
+  },
+  {
+    "id": "97",
+    "name": "CloseDMs",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/CloseDMs.zip",
+    "desc": "Atalho para fechar DMs no menu de contexto.",
+    "tags": ["Utilidades", "UI"]
+  },
+  {
+    "id": "98",
+    "name": "CloneChannels",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/CloneChannels.zip",
+    "desc": "Clona rapidamente canais de texto no menu de contexto.",
+    "tags": ["Moderação", "Utilidades"]
+  },
+  {
+    "id": "99",
+    "name": "TypingIndicators",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/TypingIndicators.zip",
+    "desc": "Mostra indicadores de digitação na lista de canais.",
+    "tags": ["UI", "Mensagens"]
+  },
+  {
+    "id": "100",
+    "name": "TypingUsers",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/TypingUsers.zip",
+    "desc": "Abre uma lista clicável de usuários digitando atualmente.",
+    "tags": ["UI", "Mensagens"]
+  },
+  {
+    "id": "101",
+    "name": "ReplaceAllText",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/ReplaceAllText.zip",
+    "desc": "Substitui todo texto por o que você quiser.",
+    "tags": ["Diversão", "Mensagens"]
+  },
+  {
+    "id": "102",
+    "name": "AlternateReport",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/AlternateReport.zip",
+    "desc": "Substitui o botão de denunciar mensagem abrindo o formulário de denúncia.",
+    "tags": ["Utilidades", "Moderação"]
+  },
+  {
+    "id": "103",
+    "name": "Insult",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/Insult.zip",
+    "desc": "Envia insultos com /insult.",
+    "tags": ["Diversão", "Mensagens"]
+  },
+  {
+    "id": "104",
+    "name": "FriendsExporter",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/FriendsExporter.zip",
+    "desc": "Exporta sua lista de amigos com /friendsexport.",
+    "tags": ["Utilidades", "Sistema"]
+  },
+  {
+    "id": "105",
+    "name": "1ClickDelete",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/1ClickDelete.zip",
+    "desc": "Desabilita a confirmação de exclusão em mensagens.",
+    "tags": ["Utilidades", "Mensagens"]
+  },
+  {
+    "id": "106",
+    "name": "AudioPlayer",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/AudioPlayer.zip",
+    "desc": "Reproduz anexos de áudio diretamente no chat.",
+    "tags": ["Mídia", "Utilidades"]
+  },
+  {
+    "id": "107",
+    "name": "AttachmentPickerSizes",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/AttachmentPickerSizes.zip",
+    "desc": "Adiciona tamanhos de upload no seletor de anexos.",
+    "tags": ["Utilidades", "UI"]
+  },
+  {
+    "id": "108",
+    "name": "ReactionQueue",
+    "author": "rushiiMachine",
+    "repo": "rushiiMachine/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/rushiiMachine/aliucord-plugins/builds/ReactionQueue.zip",
+    "desc": "Enfileira reações para evitar atingir o rate limit.",
+    "tags": ["Utilidades", "Mensagens"]
+  },
+  {
+    "id": "109",
+    "name": "TimezoneSpoof",
+    "author": "FurqanHun",
+    "repo": "FurqanHun/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/FurqanHun/aliucord-plugins/builds/TimezoneSpoof.zip",
+    "desc": "Permite substituir o fuso horário do sistema exclusivamente no app Discord.",
+    "tags": ["Utilidades", "Sistema"]
+  },
+  {
+    "id": "110",
+    "name": "UnknownConnectionIcons",
+    "author": "nyakowint",
+    "repo": "nyakowint/AliuPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/UnknownConnectionIcons.zip",
+    "desc": "Adiciona ícones para conexões desconhecidas no perfil.",
+    "tags": ["UI", "Integração"]
+  },
+  {
+    "id": "111",
+    "name": "PlatformIndicators",
+    "author": "nyakowint",
+    "repo": "nyakowint/AliuPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/PlatformIndicators.zip",
+    "desc": "Mostra indicadores de plataforma para usuários.",
+    "tags": ["UI", "Informações"]
+  },
+  {
+    "id": "112",
+    "name": "GuildFeatures",
+    "author": "nyakowint",
+    "repo": "nyakowint/AliuPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/GuildFeatures.zip",
+    "desc": "Mostra recursos do servidor na lista de servidores.",
+    "tags": ["UI", "Informações"]
+  },
+  {
+    "id": "113",
+    "name": "StartupMessage",
+    "author": "nyakowint",
+    "repo": "nyakowint/AliuPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/StartupMessage.zip",
+    "desc": "Envia uma mensagem automaticamente ao iniciar o Discord.",
+    "tags": ["Utilidades", "Automatização"]
+  },
+  {
+    "id": "114",
+    "name": "DeleteEmbeds",
+    "author": "c10udburst-discord",
+    "repo": "c10udburst-discord/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/c10udburst-discord/aliucord-plugins/builds/DeleteEmbeds.zip",
+    "desc": "Adiciona opção ao menu de toque longo para deletar embeds.",
+    "tags": ["Utilidades", "Mensagens"]
+  },
+  {
+    "id": "115",
+    "name": "EditWebhooks",
+    "author": "c10udburst-discord",
+    "repo": "c10udburst-discord/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/c10udburst-discord/aliucord-plugins/builds/EditWebhooks.zip",
+    "desc": "Visualiza, deleta e cria webhooks.",
+    "tags": ["Moderação", "Utilidades"]
+  },
+  {
+    "id": "116",
+    "name": "MoreTags",
+    "author": "c10udburst-discord",
+    "repo": "c10udburst-discord/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/c10udburst-discord/aliucord-plugins/builds/MoreTags.zip",
+    "desc": "Mostra tags OWNER, STAFF, MOD, WEBHOOK, SERVER e SYSTEM apropriadamente.",
+    "tags": ["UI", "Moderação"]
+  },
+  {
+    "id": "117",
+    "name": "ReactionEmojiName",
+    "author": "c10udburst-discord",
+    "repo": "c10udburst-discord/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/c10udburst-discord/aliucord-plugins/builds/ReactionEmojiName.zip",
+    "desc": "Toque longo para ver o nome do emoji de reação.",
+    "tags": ["Utilidades", "UI"]
+  },
+  {
+    "id": "118",
+    "name": "Notifier",
+    "author": "c10udburst-discord",
+    "repo": "c10udburst-discord/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/c10udburst-discord/aliucord-plugins/builds/Notifier.zip",
+    "desc": "Registra saídas de servidores e unfriends.",
+    "tags": ["Utilidades", "Privacidade"]
+  },
+  {
+    "id": "119",
+    "name": "HighlightOwnMessages",
+    "author": "c10udburst-discord",
+    "repo": "c10udburst-discord/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/c10udburst-discord/aliucord-plugins/builds/HighlightOwnMessages.zip",
+    "desc": "Personaliza como mensagens de você mesmo aparecem.",
+    "tags": ["UI", "Customização"]
+  },
+  {
+    "id": "120",
+    "name": "TextReplace",
+    "author": "c10udburst-discord",
+    "repo": "c10udburst-discord/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/c10udburst-discord/aliucord-plugins/builds/TextReplace.zip",
+    "desc": "Substituídor de texto personalizável.",
+    "tags": ["Utilidades", "Mensagens"]
+  },
+  {
+    "id": "121",
+    "name": "SendEmbeds",
+    "author": "c10udburst-discord",
+    "repo": "c10udburst-discord/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/c10udburst-discord/aliucord-plugins/builds/SendEmbeds.zip",
+    "desc": "Adiciona comando /embed e botão para enviar embeds via webhooks.",
+    "tags": ["Utilidades", "Mensagens"]
+  },
+  {
+    "id": "122",
+    "name": "Whois",
+    "author": "autodistries",
+    "repo": "autodistries/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/autodistries/aliucord-plugins/builds/Whois.zip",
+    "desc": "Comando /whois para qualquer usuário. Aceita ID ou menção.",
+    "tags": ["Utilidades", "Informações"]
+  },
+  {
+    "id": "123",
+    "name": "SnowflakeUtilities",
+    "author": "autodistries",
+    "repo": "autodistries/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/autodistries/aliucord-plugins/builds/SnowflakeUtilities.zip",
+    "desc": "Comando /timestamp para converter timestamp Discord em data legível.",
+    "tags": ["Utilidades", "Dev"]
+  },
+  {
+    "id": "124",
+    "name": "CopyUrlInsteadOfShareMessages",
+    "author": "autodistries",
+    "repo": "autodistries/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/autodistries/aliucord-plugins/builds/CopyUrlInsteadOfShareMessages.zip",
+    "desc": "Substitui a função de compartilhar mensagem por copiar URL.",
+    "tags": ["Utilidades", "Mensagens"]
   }
 ]
