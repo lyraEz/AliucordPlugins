@@ -1,48 +1,39 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Search, Download, Hash, Filter, Sparkles, Github, Heart } from 'lucide-react';
-
-const pluginsData = [
-  { id: "v1", name: "Themer", author: "Vendicated", repo: "Vendicated/AliucordPlugins", desc: "Motor de personalização visual avançado para aplicação de temas customizados na interface.", tags: ["UI", "Customização"] },
-  { id: "v2", name: "MessageLogger", author: "Vendicated", repo: "Vendicated/AliucordPlugins", desc: "Registra localmente mensagens excluídas e editadas para auditoria e consulta posterior.", tags: ["Privacidade", "Mensagens"] },
-  { id: "v3", name: "UpdateAll", author: "Vendicated", repo: "Vendicated/AliucordPlugins", desc: "Automatiza o processo de atualização de todos os plugins instalados no aplicativo.", tags: ["Sistema", "Utilidades"] },
-  { id: "v4", name: "DiscordBypass", author: "Vendicated", repo: "Vendicated/AliucordPlugins", desc: "Remove restrições artificiais do cliente oficial e desabilita pop-ups intrusivos.", tags: ["Sistema", "Fixes"] },
-  { id: "v5", name: "NoTrack", author: "Vendicated", repo: "Vendicated/AliucordPlugins", desc: "Desabilita o envio de métricas de telemetria e rastreamento para os servidores oficiais.", tags: ["Privacidade", "Sistema"] },
-  { id: "v6", name: "CrashHandler", author: "Vendicated", repo: "Vendicated/AliucordPlugins", desc: "Intercepta falhas críticas do aplicativo e gera relatórios de erro detalhados para depuração.", tags: ["Dev", "Sistema"] },
-  { id: "v7", name: "Experiments", author: "Vendicated", repo: "Vendicated/AliucordPlugins", desc: "Habilita o acesso irrestrito à aba oculta de experimentos do desenvolvedor.", tags: ["Dev", "UI"] },
-  { id: "j1", name: "ShowHiddenChannels", author: "Juby210", repo: "Juby210/Aliucord-plugins", desc: "Exibe canais restritos na lista de servidores, revelando sua existência visualmente.", tags: ["UI", "Utilidades"] },
-  { id: "j2", name: "ViewDeletedMessages", author: "Juby210", repo: "Juby210/Aliucord-plugins", desc: "Mantém mensagens apagadas visíveis no histórico do chat local de forma discreta.", tags: ["Privacidade", "Mensagens"] },
-  { id: "j3", name: "PronounDB", author: "Juby210", repo: "Juby210/Aliucord-plugins", desc: "Integração externa para exibir pronomes preferidos dos usuários diretamente em seus perfis.", tags: ["UI", "Integração"] },
-  { id: "j4", name: "Translate", author: "Juby210", repo: "Juby210/Aliucord-plugins", desc: "Tradução nativa e instantânea de mensagens estrangeiras utilizando a API do Google Tradutor.", tags: ["Mensagens", "Utilidades"] },
-  { id: "j5", name: "UserBG", author: "Juby210", repo: "Juby210/Aliucord-plugins", desc: "Renderiza banners de perfil personalizados extraídos do banco de dados público UserBG.", tags: ["UI", "Customização"] },
-  { id: "j6", name: "AlwaysAnimate", author: "Juby210", repo: "Juby210/Aliucord-plugins", desc: "Força a reprodução contínua de avatares e emojis animados, ignorando limitações de performance.", tags: ["UI", "Performance"] },
-  { id: "j7", name: "HideMutedCategories", author: "Juby210", repo: "Juby210/Aliucord-plugins", desc: "Oculta categorias silenciadas para otimização visual da lista de navegação de canais.", tags: ["UI", "Organização"] },
-  { id: "z1", name: "RoleColorEverywhere", author: "zt64", repo: "zt64/aliucord-plugins", desc: "Aplica a cor do cargo predominante em menções, canais de voz e interface geral.", tags: ["UI", "Customização"] },
-  { id: "z2", name: "SpotifyListenAlong", author: "zt64", repo: "zt64/aliucord-plugins", desc: "Habilita a audição conjunta no Spotify sem a exigência de uma assinatura Premium ativa.", tags: ["Integração", "Mídia"] },
-  { id: "z3", name: "CopyServerIcon", author: "zt64", repo: "zt64/aliucord-plugins", desc: "Utilitário para extração rápida e cópia do ícone de servidores em alta resolução.", tags: ["Utilidades", "Mídia"] },
-  { id: "z4", name: "AccountSwitcher", author: "zt64", repo: "zt64/aliucord-plugins", desc: "Interface otimizada para alternância rápida entre múltiplas sessões autenticadas no dispositivo.", tags: ["Utilidades", "Sistema"] },
-  { id: "z5", name: "ImageLogger", author: "zt64", repo: "zt64/aliucord-plugins", desc: "Armazena localmente imagens deletadas no cache para visualização e recuperação posterior.", tags: ["Privacidade", "Mídia"] },
-  { id: "z6", name: "SplitLargeMessages", author: "zt64", repo: "zt64/aliucord-plugins", desc: "Fragmentação automatizada de textos longos para contornar o limite de envio de caracteres.", tags: ["Mensagens", "Utilitário"] },
-  { id: "x1", name: "NoTyping", author: "X1nto", repo: "X1nto/AliucordPlugins", desc: "Bloqueia o envio do evento de digitação para os servidores, garantindo privacidade na escrita.", tags: ["Privacidade", "Mensagens"] },
-  { id: "x2", name: "WhoReacted", author: "X1nto", repo: "X1nto/AliucordPlugins", desc: "Exibe os avatares dos usuários que reagiram diretamente integrados ao balão da mensagem.", tags: ["UI", "Mensagens"] },
-  { id: "x3", name: "FavoriteGif", author: "X1nto", repo: "X1nto/AliucordPlugins", desc: "Bypass do limite padrão de armazenamento de GIFs favoritos permitidos pelo cliente.", tags: ["Mídia", "Nitro"] },
-  { id: "x4", name: "OpenInApp", author: "X1nto", repo: "X1nto/AliucordPlugins", desc: "Redirecionamento nativo de links de plataformas suportadas diretamente para seus aplicativos.", tags: ["Integração", "Utilidades"] },
-  { id: "x5", name: "BetterStatusIndicators", author: "X1nto", repo: "X1nto/AliucordPlugins", desc: "Melhoria estética e de resolução nos ícones de status de atividade dos usuários da lista.", tags: ["UI", "Customização"] },
-  { id: "x6", name: "PluginRepo", author: "X1nto", repo: "X1nto/AliucordPlugins", desc: "Interface nativa otimizada para download e gerenciamento direto de plugins comunitários.", tags: ["Essencial", "Sistema"] }
-];
+import { Search, Download, Hash, Filter, Sparkles, Github, Heart, Loader2 } from 'lucide-react';
 
 export default function App() {
+  const [pluginsData, setPluginsData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedTags, setSelectedTags] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
+  // Faz o fetch brabo direto do teu repositório qnd carrega o app
   useEffect(() => {
     document.documentElement.style.scrollBehavior = 'smooth';
+    
+    // Puxa o arquivo JSON lá do teu repo na branch main
+    fetch('https://raw.githubusercontent.com/lyraEz/AliucordPlugins/main/plugins/list/plugins.json')
+      .then(response => {
+        if (!response.ok) throw new Error("A base não respondeu, fudeu!");
+        return response.json();
+      })
+      .then(data => {
+        setPluginsData(data);
+        setIsLoading(false);
+      })
+      .catch(error => {
+        console.error("Erro ao puxar os plugins:", error);
+        setIsLoading(false);
+        // Fallback pra caso o link quebre antes de tu criar o arquivo lá
+        setPluginsData([]); 
+      });
   }, []);
 
   const allTags = useMemo(() => {
     const tags = new Set();
-    pluginsData.forEach(p => p.tags.forEach(t => tags.add(t)));
+    pluginsData.forEach(p => p.tags?.forEach(t => tags.add(t)));
     return Array.from(tags).sort();
-  }, []);
+  }, [pluginsData]);
 
   const filteredPlugins = useMemo(() => {
     return pluginsData.filter(plugin => {
@@ -51,11 +42,11 @@ export default function App() {
                             plugin.author.toLowerCase().includes(searchTerm.toLowerCase());
       
       const matchesTags = selectedTags.length === 0 || 
-                          selectedTags.every(tag => plugin.tags.includes(tag));
+                          selectedTags.every(tag => plugin.tags?.includes(tag));
                           
       return matchesSearch && matchesTags;
     });
-  }, [searchTerm, selectedTags]);
+  }, [searchTerm, selectedTags, pluginsData]);
 
   const toggleTag = (tag) => {
     setSelectedTags(prev => 
@@ -140,7 +131,7 @@ export default function App() {
             Repositório Central
           </h2>
           <p className="text-purple-700/80 font-medium max-w-2xl text-lg leading-relaxed">
-            Dados extraídos diretamente dos repositórios oficiais da comunidade. Instalações otimizadas e livres de duplicatas.
+            Dados extraídos diretamente do seu repositório no GitHub. Downloads diretos, otimizados e sem delay.
           </p>
         </div>
 
@@ -177,59 +168,73 @@ export default function App() {
 
         <div className="mb-6 flex justify-between items-center px-2">
           <span className="text-purple-800 font-bold bg-white/60 px-5 py-2 rounded-full text-sm border border-white/50 shadow-sm">
-            {filteredPlugins.length} modificações catalogadas
+            {isLoading ? "Buscando na API..." : `${filteredPlugins.length} modificações catalogadas`}
           </span>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pb-10">
-          {filteredPlugins.length > 0 ? (
-            filteredPlugins.map((plugin) => (
-              <div 
-                key={plugin.id}
-                className="flex flex-col bg-white/60 border border-white/60 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 hover:bg-white/80"
-              >
-                <div className="flex justify-between items-start mb-4">
-                  <div>
-                    <h3 className="text-xl font-extrabold text-purple-900 tracking-tight">
-                      {plugin.name}
-                    </h3>
-                    <div className="flex items-center gap-1.5 text-xs font-bold text-purple-600 mt-1 opacity-90">
-                      <Github className="w-3.5 h-3.5" />
-                      <a href={`https://github.com/${plugin.repo}`} target="_blank" rel="noopener noreferrer" className="hover:underline">
-                        {plugin.author}
-                      </a>
+        {isLoading ? (
+          <div className="py-24 flex flex-col items-center justify-center text-center">
+            <Loader2 className="w-12 h-12 text-purple-600 animate-spin mb-4" />
+            <h3 className="text-xl font-bold text-purple-900">Puxando os plugins brabos...</h3>
+            <p className="text-purple-700 font-medium">Lá do github.com/lyraEz</p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pb-10">
+            {filteredPlugins.length > 0 ? (
+              filteredPlugins.map((plugin) => (
+                <div 
+                  key={plugin.id}
+                  className="flex flex-col bg-white/60 border border-white/60 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 hover:bg-white/80"
+                >
+                  <div className="flex justify-between items-start mb-4">
+                    <div>
+                      <h3 className="text-xl font-extrabold text-purple-900 tracking-tight">
+                        {plugin.name}
+                      </h3>
+                      <div className="flex items-center gap-1.5 text-xs font-bold text-purple-600 mt-1 opacity-90">
+                        <Github className="w-3.5 h-3.5" />
+                        <a href={`https://github.com/${plugin.repo}`} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                          {plugin.author}
+                        </a>
+                      </div>
                     </div>
-                  </div>
-                  
-                  <button className="w-10 h-10 rounded-xl bg-purple-100 hover:bg-purple-500 hover:text-white text-purple-600 flex items-center justify-center transition-colors duration-200 active:scale-95 shrink-0">
-                    <Download className="w-5 h-5" />
-                  </button>
-                </div>
-
-                <p className="text-purple-800/90 text-sm mb-6 flex-grow leading-relaxed font-medium">
-                  {plugin.desc}
-                </p>
-
-                <div className="flex flex-wrap gap-2 mt-auto pt-4 border-t border-purple-200/50">
-                  {plugin.tags.map(tag => (
-                    <span 
-                      key={tag} 
-                      className="text-[11px] font-extrabold px-3 py-1 bg-white/70 text-purple-700 rounded-lg border border-white/60 flex items-center shadow-sm"
+                    
+                    {/* Botão de Download FUNCIONAL de vdd puxando o .zip direto */}
+                    <a 
+                      href={plugin.downloadUrl}
+                      download
+                      className="w-10 h-10 rounded-xl bg-purple-100 hover:bg-purple-500 hover:text-white text-purple-600 flex items-center justify-center transition-colors duration-200 active:scale-95 shrink-0"
+                      title="Baixar Plugin"
                     >
-                      {tag}
-                    </span>
-                  ))}
+                      <Download className="w-5 h-5" />
+                    </a>
+                  </div>
+
+                  <p className="text-purple-800/90 text-sm mb-6 flex-grow leading-relaxed font-medium">
+                    {plugin.desc}
+                  </p>
+
+                  <div className="flex flex-wrap gap-2 mt-auto pt-4 border-t border-purple-200/50">
+                    {plugin.tags?.map(tag => (
+                      <span 
+                        key={tag} 
+                        className="text-[11px] font-extrabold px-3 py-1 bg-white/70 text-purple-700 rounded-lg border border-white/60 flex items-center shadow-sm"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
+              ))
+            ) : (
+              <div className="col-span-full py-20 flex flex-col items-center justify-center text-center bg-white/40 rounded-3xl border border-white/50">
+                <span className="text-6xl mb-6">🔍</span>
+                <h3 className="text-2xl font-black text-purple-900 mb-2">Putz, nada encontrado.</h3>
+                <p className="text-purple-700 font-medium">Será q o arquivo JSON tá lá no GitHub msm? Dá um confere lá.</p>
               </div>
-            ))
-          ) : (
-            <div className="col-span-full py-20 flex flex-col items-center justify-center text-center bg-white/40 rounded-3xl border border-white/50">
-              <span className="text-6xl mb-6">🔍</span>
-              <h3 className="text-2xl font-black text-purple-900 mb-2">Nenhum plugin encontrado.</h3>
-              <p className="text-purple-700 font-medium">Ajuste os filtros de pesquisa para tentar novamente.</p>
-            </div>
-          )}
-        </div>
+            )}
+          </div>
+        )}
       </main>
       
       <footer className="relative z-50 mt-10 pb-12 pt-6 text-center text-purple-800 font-bold flex flex-col items-center justify-center gap-2">
@@ -252,5 +257,3 @@ export default function App() {
     </div>
   );
 }
-
-
