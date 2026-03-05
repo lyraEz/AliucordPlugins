@@ -1,14 +1,17 @@
 import React from 'react';
-import './App.css';
 
-const App = ({ plugin }) => {
+const App = () => {
     return (
-        <div className="App">
-            <h1>{plugin.name}</h1>
-            <p>{plugin.description}</p>
-             {/* Other components and code */}
-            <button onClick={() => window.open(`https://github.com/${plugin.repo}/archive/refs/heads/main.zip`, '_blank')}>Download</button>
-            {/* Other components and code */}
+        <div>
+            <h1>Plugins</h1>
+            {/* existing plugins data and components */}
+            {plugins.map(plugin => (
+                <div key={plugin.id}>
+                    <h2>{plugin.name}</h2>
+                    <p>{plugin.description}</p>
+                    <button onClick={() => window.open(`https://github.com/${plugin.repo}/archive/refs/heads/main.zip`, '_blank')}>Download</button>
+                </div>
+            ))}
         </div>
     );
 };
