@@ -1,16 +1,35 @@
-# React + Vite
+# Aliucord Plugins
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Aliucord Plugins repository! This repository contains a collection of plugins designed to enhance the Aliucord experience. Each plugin is crafted to provide additional functionality, customization, and unique features to elevate your usage of the Discord client.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+To install plugins from this repository, follow these steps:
+1. Download the desired plugin from the releases section.
+2. Place the downloaded file into the appropriate Aliucord plugins directory.
+3. Restart the Aliucord app to load the new plugin.
 
-## React Compiler
+## Usage
+Each plugin comes with its own set of functionalities. Below you will find a brief overview of each plugin available in this repository. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Plugin Name**: Brief description of what the plugin does.
 
-## Expanding the ESLint configuration
+## Contributing
+We welcome contributions from the community! If you would like to suggest a new plugin, report a bug, or improve the existing plugins, feel free to submit a pull request.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Steps to Contribute:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Open a pull request detailing your changes.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any inquiries, please reach out to [lyraEz](https://github.com/lyraEz).
