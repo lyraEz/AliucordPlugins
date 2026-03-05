@@ -1,0 +1,194 @@
+[
+  {
+    "id": "v1",
+    "name": "Themer",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/Themer.zip",
+    "desc": "Motor de personalização visual avançado para aplicação de temas customizados na interface.",
+    "tags": [
+      "UI",
+      "Customização"
+    ]
+  },
+  {
+    "id": "v2",
+    "name": "MessageLogger",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/MessageLogger.zip",
+    "desc": "Registra localmente mensagens excluídas e editadas para auditoria e consulta posterior.",
+    "tags": [
+      "Privacidade",
+      "Mensagens"
+    ]
+  },
+  {
+    "id": "v3",
+    "name": "UpdateAll",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/UpdateAll.zip",
+    "desc": "Automatiza o processo de atualização de todos os plugins instalados no aplicativo.",
+    "tags": [
+      "Sistema",
+      "Utilidades"
+    ]
+  },
+  {
+    "id": "v4",
+    "name": "DiscordBypass",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/DiscordBypass.zip",
+    "desc": "Remove restrições artificiais do cliente oficial e desabilita pop-ups intrusivos.",
+    "tags": [
+      "Sistema",
+      "Fixes"
+    ]
+  },
+  {
+    "id": "v5",
+    "name": "NoTrack",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/NoTrack.zip",
+    "desc": "Desabilita o envio de métricas de telemetria e rastreamento para os servidores oficiais.",
+    "tags": [
+      "Privacidade",
+      "Sistema"
+    ]
+  },
+  {
+    "id": "v6",
+    "name": "CrashHandler",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/CrashHandler.zip",
+    "desc": "Intercepta falhas críticas do aplicativo e gera relatórios de erro detalhados para depuração.",
+    "tags": [
+      "Dev",
+      "Sistema"
+    ]
+  },
+  {
+    "id": "j1",
+    "name": "ShowHiddenChannels",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/ShowHiddenChannels.zip",
+    "desc": "Exibe canais restritos na lista de servidores, revelando sua existência visualmente.",
+    "tags": [
+      "UI",
+      "Utilidades"
+    ]
+  },
+  {
+    "id": "j2",
+    "name": "ViewDeletedMessages",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/ViewDeletedMessages.zip",
+    "desc": "Mantém mensagens apagadas visíveis no histórico do chat local de forma discreta.",
+    "tags": [
+      "Privacidade",
+      "Mensagens"
+    ]
+  },
+  {
+    "id": "j3",
+    "name": "PronounDB",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/PronounDB.zip",
+    "desc": "Integração externa para exibir pronomes preferidos dos usuários diretamente em seus perfis.",
+    "tags": [
+      "UI",
+      "Integração"
+    ]
+  },
+  {
+    "id": "j4",
+    "name": "Translate",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/Translate.zip",
+    "desc": "Tradução nativa e instantânea de mensagens estrangeiras utilizando a API do Google Tradutor.",
+    "tags": [
+      "Mensagens",
+      "Utilidades"
+    ]
+  },
+  {
+    "id": "z1",
+    "name": "RoleColorEverywhere",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/RoleColorEverywhere.zip",
+    "desc": "Aplica a cor do cargo predominante em menções, canais de voz e interface geral.",
+    "tags": [
+      "UI",
+      "Customização"
+    ]
+  },
+  {
+    "id": "z2",
+    "name": "SpotifyListenAlong",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/SpotifyListenAlong.zip",
+    "desc": "Habilita a audição conjunta no Spotify sem a exigência de uma assinatura Premium ativa.",
+    "tags": [
+      "Integração",
+      "Mídia"
+    ]
+  },
+  {
+    "id": "z4",
+    "name": "AccountSwitcher",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/AccountSwitcher.zip",
+    "desc": "Interface otimizada para alternância rápida entre múltiplas sessões autenticadas no dispositivo.",
+    "tags": [
+      "Utilidades",
+      "Sistema"
+    ]
+  },
+  {
+    "id": "x1",
+    "name": "NoTyping",
+    "author": "X1nto",
+    "repo": "X1nto/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/NoTyping.zip",
+    "desc": "Bloqueia o envio do evento de digitação para os servidores, garantindo privacidade na escrita.",
+    "tags": [
+      "Privacidade",
+      "Mensagens"
+    ]
+  },
+  {
+    "id": "x2",
+    "name": "WhoReacted",
+    "author": "X1nto",
+    "repo": "X1nto/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/WhoReacted.zip",
+    "desc": "Exibe os avatares dos usuários que reagiram diretamente integrados ao balão da mensagem.",
+    "tags": [
+      "UI",
+      "Mensagens"
+    ]
+  },
+  {
+    "id": "x6",
+    "name": "PluginRepo",
+    "author": "X1nto",
+    "repo": "X1nto/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/PluginRepo.zip",
+    "desc": "Interface nativa otimizada para download e gerenciamento direto de plugins comunitários.",
+    "tags": [
+      "Essencial",
+      "Sistema"
+    ]
+  }
+]
