@@ -1,572 +1,194 @@
-{
-  "1": {
-    "name": "AddAllFriends",
-    "author": "Aliucord",
-    "description": "Adds a button to add all friends in a server.",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/AddAllFriends.zip"
-  },
-  "2": {
-    "name": "AnimateNicknames",
-    "author": "Aliucord",
-    "description": "Animates nicknames in the member list.",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/AnimateNicknames.zip"
-  },
-  "3": {
-    "name": "AvatarDot",
-    "author": "Aliucord",
-    "description": "Adds a status dot to avatars.",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/AvatarDot.zip"
-  },
-  "4": {
-    "name": "BetterFolders",
-    "author": "Aliucord",
-    "description": "Improves server folders.",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/BetterFolders.zip"
-  },
-  "5": {
-    "name": "BetterRoleDot",
-    "author": "Aliucord",
-    "description": "Replaces the role circle with a dot.",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/BetterRoleDot.zip"
-  },
-  "6": {
-    "name": "BlurNSFW",
-    "author": "Aliucord",
-    "description": "Blurs NSFW channels.",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/BlurNSFW.zip"
-  },
-  "7": {
-    "name": "Commands",
-    "author": "Aliucord",
-    "description": "Essential plugin for slash commands support.",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/Commands.zip"
-  },
-  "8": {
-    "name": "CustomEmojis",
-    "author": "Aliucord",
-    "description": "Use custom emojis without Nitro (client-side).",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/CustomEmojis.zip"
-  },
-  "9": {
-    "name": "DoubleTapToEdit",
-    "author": "Aliucord",
-    "description": "Double tap a message to edit it.",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/DoubleTapToEdit.zip"
-  },
-  "10": {
-    "name": "FreeStickers",
-    "author": "Aliucord",
-    "description": "Use stickers for free (client-side).",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/FreeStickers.zip"
-  },
-  "11": {
-    "name": "GiphyGifFix",
-    "author": "Aliucord",
-    "description": "Fixes Giphy GIFs not playing.",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/GiphyGifFix.zip"
-  },
-  "12": {
-    "name": "ImageZoom",
-    "author": "Aliucord",
-    "description": "Zoom into images in the chat.",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/ImageZoom.zip"
-  },
-  "13": {
-    "name": "MessageLogger",
-    "author": "Aliucord",
-    "description": "Logs deleted and edited messages.",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/MessageLogger.zip"
-  },
-  "14": {
-    "name": "NoTrack",
-    "author": "Aliucord",
-    "description": "Disables Discord tracking/telemetry.",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/NoTrack.zip"
-  },
-  "15": {
-    "name": "ShowHiddenChannels",
-    "author": "Aliucord",
-    "description": "Shows channels you don't have access to (can't read messages).",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/ShowHiddenChannels.zip"
-  },
-  "16": {
-    "name": "ValidReply",
-    "author": "Aliucord",
-    "description": "Checks if a reply is valid.",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/ValidReply.zip"
-  },
-  "17": {
-    "name": "WhoReacted",
-    "author": "Aliucord",
-    "description": "Shows who reacted to a message.",
-    "url": "https://raw.githubusercontent.com/Aliucord/Plugins/builds/WhoReacted.zip"
-  },
-  "18": {
-    "name": "AccountSwitcher",
-    "author": "Vendicated",
-    "description": "Quickly switch between multiple accounts.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/AccountSwitcher.zip"
-  },
-  "19": {
-    "name": "AlwaysAnimate",
-    "author": "Vendicated",
-    "description": "Always animate avatars and emojis.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/AlwaysAnimate.zip"
-  },
-  "20": {
-    "name": "BottomArchive",
-    "author": "Vendicated",
-    "description": "Moves archived channels to the bottom.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/BottomArchive.zip"
-  },
-  "21": {
-    "name": "CloudSync",
-    "author": "Vendicated",
-    "description": "Sync your Aliucord settings to the cloud.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/CloudSync.zip"
-  },
-  "22": {
-    "name": "Experiments",
-    "author": "Vendicated",
-    "description": "Enable Discord experiments.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/Experiments.zip"
-  },
-  "23": {
-    "name": "GameActivityToggle",
-    "author": "Vendicated",
-    "description": "Adds a toggle for game activity in the side drawer.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/GameActivityToggle.zip"
-  },
-  "24": {
-    "name": "MemberCount",
-    "author": "Vendicated",
-    "description": "Shows the member count in the sidebar.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/MemberCount.zip"
-  },
-  "25": {
-    "name": "NitroSpoof",
-    "author": "Vendicated",
-    "description": "Spoofs Nitro features.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/NitroSpoof.zip"
-  },
-  "26": {
-    "name": "OpenInBrowser",
-    "author": "Vendicated",
-    "description": "Adds an option to open links in browser.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/OpenInBrowser.zip"
-  },
-  "27": {
-    "name": "PersistSettings",
-    "author": "Vendicated",
-    "description": "Prevents settings from being reset.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/PersistSettings.zip"
-  },
-  "28": {
-    "name": "Pronouns",
-    "author": "Vendicated",
-    "description": "Shows pronouns from PronounDB.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/Pronouns.zip"
-  },
-  "29": {
-    "name": "SecretRingtone",
-    "author": "Vendicated",
-    "description": "Enables the rare Discord ringtone.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/SecretRingtone.zip"
-  },
-  "30": {
-    "name": "StaffTags",
-    "author": "Vendicated",
-    "description": "Shows tags for Discord staff.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/StaffTags.zip"
-  },
-  "31": {
+[
+  {
+    "id": "v1",
     "name": "Themer",
     "author": "Vendicated",
-    "description": "Essential plugin for custom themes.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/Themer.zip"
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/Themer.zip",
+    "desc": "Motor de personalização visual avançado para aplicação de temas customizados na interface.",
+    "tags": [
+      "UI",
+      "Customização"
+    ]
   },
-  "32": {
+  {
+    "id": "v2",
+    "name": "MessageLogger",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/MessageLogger.zip",
+    "desc": "Registra localmente mensagens excluídas e editadas para auditoria e consulta posterior.",
+    "tags": [
+      "Privacidade",
+      "Mensagens"
+    ]
+  },
+  {
+    "id": "v3",
+    "name": "UpdateAll",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/UpdateAll.zip",
+    "desc": "Automatiza o processo de atualização de todos os plugins instalados no aplicativo.",
+    "tags": [
+      "Sistema",
+      "Utilidades"
+    ]
+  },
+  {
+    "id": "v4",
+    "name": "DiscordBypass",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/DiscordBypass.zip",
+    "desc": "Remove restrições artificiais do cliente oficial e desabilita pop-ups intrusivos.",
+    "tags": [
+      "Sistema",
+      "Fixes"
+    ]
+  },
+  {
+    "id": "v5",
+    "name": "NoTrack",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/NoTrack.zip",
+    "desc": "Desabilita o envio de métricas de telemetria e rastreamento para os servidores oficiais.",
+    "tags": [
+      "Privacidade",
+      "Sistema"
+    ]
+  },
+  {
+    "id": "v6",
+    "name": "CrashHandler",
+    "author": "Vendicated",
+    "repo": "Vendicated/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/CrashHandler.zip",
+    "desc": "Intercepta falhas críticas do aplicativo e gera relatórios de erro detalhados para depuração.",
+    "tags": [
+      "Dev",
+      "Sistema"
+    ]
+  },
+  {
+    "id": "j1",
+    "name": "ShowHiddenChannels",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/ShowHiddenChannels.zip",
+    "desc": "Exibe canais restritos na lista de servidores, revelando sua existência visualmente.",
+    "tags": [
+      "UI",
+      "Utilidades"
+    ]
+  },
+  {
+    "id": "j2",
+    "name": "ViewDeletedMessages",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/ViewDeletedMessages.zip",
+    "desc": "Mantém mensagens apagadas visíveis no histórico do chat local de forma discreta.",
+    "tags": [
+      "Privacidade",
+      "Mensagens"
+    ]
+  },
+  {
+    "id": "j3",
+    "name": "PronounDB",
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/PronounDB.zip",
+    "desc": "Integração externa para exibir pronomes preferidos dos usuários diretamente em seus perfis.",
+    "tags": [
+      "UI",
+      "Integração"
+    ]
+  },
+  {
+    "id": "j4",
     "name": "Translate",
-    "author": "Vendicated",
-    "description": "Translates messages using Google Translate.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/Translate.zip"
+    "author": "Juby210",
+    "repo": "Juby210/Aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/Translate.zip",
+    "desc": "Tradução nativa e instantânea de mensagens estrangeiras utilizando a API do Google Tradutor.",
+    "tags": [
+      "Mensagens",
+      "Utilidades"
+    ]
   },
-  "33": {
-    "name": "UrbanDictionary",
-    "author": "Vendicated",
-    "description": "Look up words on Urban Dictionary.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/UrbanDictionary.zip"
-  },
-  "34": {
-    "name": "UserNotes",
-    "author": "Vendicated",
-    "description": "View and edit user notes.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/UserNotes.zip"
-  },
-  "35": {
-    "name": "ViewProfileRaw",
-    "author": "Vendicated",
-    "description": "View raw user profile data.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/ViewProfileRaw.zip"
-  },
-  "36": {
-    "name": "Xposed",
-    "author": "Vendicated",
-    "description": "Integration with Xposed framework features.",
-    "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/Xposed.zip"
-  },
-  "37": {
-    "name": "CallConfirm",
-    "author": "J-V-C",
-    "description": "Asks for confirmation before calling.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/CallConfirm.zip"
-  },
-  "38": {
-    "name": "CustomBackground",
-    "author": "J-V-C",
-    "description": "Set a custom background image.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/CustomBackground.zip"
-  },
-  "39": {
-    "name": "CustomStatus",
-    "author": "J-V-C",
-    "description": "Easier custom status management.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/CustomStatus.zip"
-  },
-  "40": {
-    "name": "EmojiSize",
-    "author": "J-V-C",
-    "description": "Change the size of emojis in chat.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/EmojiSize.zip"
-  },
-  "41": {
-    "name": "FastDelete",
-    "author": "J-V-C",
-    "description": "Delete messages faster with a button.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/FastDelete.zip"
-  },
-  "42": {
-    "name": "GlobalBadges",
-    "author": "J-V-C",
-    "description": "Show badges from other mods.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/GlobalBadges.zip"
-  },
-  "43": {
-    "name": "HypeSquad",
-    "author": "J-V-C",
-    "description": "Change your HypeSquad house.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/HypeSquad.zip"
-  },
-  "44": {
-    "name": "InvisibleChat",
-    "author": "J-V-C",
-    "description": "Send hidden/invisible messages.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/InvisibleChat.zip"
-  },
-  "45": {
-    "name": "MessageDumps",
-    "author": "J-V-C",
-    "description": "Export chat logs.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/MessageDumps.zip"
-  },
-  "46": {
-    "name": "NoBurnIn",
-    "author": "J-V-C",
-    "description": "Protects OLED screens from burn-in.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/NoBurnIn.zip"
-  },
-  "47": {
+  {
+    "id": "z1",
     "name": "RoleColorEverywhere",
-    "author": "J-V-C",
-    "description": "Applies role colors to more places.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/RoleColorEverywhere.zip"
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/RoleColorEverywhere.zip",
+    "desc": "Aplica a cor do cargo predominante em menções, canais de voz e interface geral.",
+    "tags": [
+      "UI",
+      "Customização"
+    ]
   },
-  "48": {
-    "name": "ShowAvatars",
-    "author": "J-V-C",
-    "description": "Show avatars in more lists.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/ShowAvatars.zip"
+  {
+    "id": "z2",
+    "name": "SpotifyListenAlong",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/SpotifyListenAlong.zip",
+    "desc": "Habilita a audição conjunta no Spotify sem a exigência de uma assinatura Premium ativa.",
+    "tags": [
+      "Integração",
+      "Mídia"
+    ]
   },
-  "49": {
-    "name": "StickerInformation",
-    "author": "J-V-C",
-    "description": "View info about stickers.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/StickerInformation.zip"
+  {
+    "id": "z4",
+    "name": "AccountSwitcher",
+    "author": "zt64",
+    "repo": "zt64/aliucord-plugins",
+    "downloadUrl": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/AccountSwitcher.zip",
+    "desc": "Interface otimizada para alternância rápida entre múltiplas sessões autenticadas no dispositivo.",
+    "tags": [
+      "Utilidades",
+      "Sistema"
+    ]
   },
-  "50": {
-    "name": "ViewServerIcon",
-    "author": "J-V-C",
-    "description": "Click server icons to view them full size.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/ViewServerIcon.zip"
+  {
+    "id": "x1",
+    "name": "NoTyping",
+    "author": "X1nto",
+    "repo": "X1nto/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/NoTyping.zip",
+    "desc": "Bloqueia o envio do evento de digitação para os servidores, garantindo privacidade na escrita.",
+    "tags": [
+      "Privacidade",
+      "Mensagens"
+    ]
   },
-  "51": {
-    "name": "Weather",
-    "author": "J-V-C",
-    "description": "Get weather info via commands.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/Weather.zip"
+  {
+    "id": "x2",
+    "name": "WhoReacted",
+    "author": "X1nto",
+    "repo": "X1nto/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/WhoReacted.zip",
+    "desc": "Exibe os avatares dos usuários que reagiram diretamente integrados ao balão da mensagem.",
+    "tags": [
+      "UI",
+      "Mensagens"
+    ]
   },
-  "52": {
-    "name": "Wikipedia",
-    "author": "J-V-C",
-    "description": "Search Wikipedia from chat.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/Wikipedia.zip"
-  },
-  "53": {
-    "name": "YouTubePlayer",
-    "author": "J-V-C",
-    "description": "Enhanced YT player integration.",
-    "url": "https://raw.githubusercontent.com/J-V-C/Aliucord-Plugins/builds/YouTubePlayer.zip"
-  },
-  "54": {
-    "name": "AuditLogSearch",
-    "author": "Xinto",
-    "description": "Search through audit logs.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/AuditLogSearch.zip"
-  },
-  "55": {
-    "name": "BetterLayout",
-    "author": "Xinto",
-    "description": "Tweaks the UI layout for better accessibility.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/BetterLayout.zip"
-  },
-  "56": {
-    "name": "ClickableMentions",
-    "author": "Xinto",
-    "description": "Makes mentions in more places clickable.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/ClickableMentions.zip"
-  },
-  "57": {
-    "name": "DetailedServerInfo",
-    "author": "Xinto",
-    "description": "Shows more server details.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/DetailedServerInfo.zip"
-  },
-  "58": {
-    "name": "EmojiLock",
-    "author": "Xinto",
-    "description": "Lock emojis you use often.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/EmojiLock.zip"
-  },
-  "59": {
-    "name": "FullSettings",
-    "author": "Xinto",
-    "description": "Unlocks hidden Discord settings.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/FullSettings.zip"
-  },
-  "60": {
-    "name": "GroupDMPrivacy",
-    "author": "Xinto",
-    "description": "Better privacy controls for group DMs.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/GroupDMPrivacy.zip"
-  },
-  "61": {
-    "name": "HideBlocked",
-    "author": "Xinto",
-    "description": "Completely hide blocked user messages.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/HideBlocked.zip"
-  },
-  "62": {
-    "name": "ImageLink",
-    "author": "Xinto",
-    "description": "Copy image links easily.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/ImageLink.zip"
-  },
-  "63": {
-    "name": "KeepConsultant",
-    "author": "Xinto",
-    "description": "Internal developer tool helper.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/KeepConsultant.zip"
-  },
-  "64": {
-    "name": "LocalActivity",
-    "author": "Xinto",
-    "description": "Set a custom activity only you can see.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/LocalActivity.zip"
-  },
-  "65": {
-    "name": "MoreStatus",
-    "author": "Xinto",
-    "description": "Adds more status indicators.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/MoreStatus.zip"
-  },
-  "66": {
-    "name": "NoReplyPing",
-    "author": "Xinto",
-    "description": "Disables reply ping by default.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/NoReplyPing.zip"
-  },
-  "67": {
-    "name": "OldDesign",
-    "author": "Xinto",
-    "description": "Brings back parts of the old Discord design.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/OldDesign.zip"
-  },
-  "68": {
-    "name": "QuickMute",
-    "author": "Xinto",
-    "description": "Mute servers/channels quickly.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/QuickMute.zip"
-  },
-  "69": {
-    "name": "RecentFiles",
-    "author": "Xinto",
-    "description": "Quick access to recent uploads.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/RecentFiles.zip"
-  },
-  "70": {
-    "name": "ServerSearch",
-    "author": "Xinto",
-    "description": "Search for servers you are in.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/ServerSearch.zip"
-  },
-  "71": {
-    "name": "TopMessages",
-    "author": "Xinto",
-    "description": "Shows the most active messages/users.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/TopMessages.zip"
-  },
-  "72": {
-    "name": "UploadButton",
-    "author": "Xinto",
-    "description": "Customizes the upload button.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/UploadButton.zip"
-  },
-  "73": {
-    "name": "ViewPermission",
-    "author": "Xinto",
-    "description": "View permissions of users in a channel.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/ViewPermission.zip"
-  },
-  "74": {
-    "name": "Webhooks",
-    "author": "Xinto",
-    "description": "Manage webhooks via Aliucord.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/Webhooks.zip"
-  },
-  "75": {
-    "name": "ZoomIn",
-    "author": "Xinto",
-    "description": "Additional zoom features.",
-    "url": "https://raw.githubusercontent.com/Xinto/AliucordPlugins/builds/ZoomIn.zip"
-  },
-  "76": {
-    "name": "BetterTyping",
-    "author": "Mantikafasi",
-    "description": "Shows typing indicator in more places.",
-    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/BetterTyping.zip"
-  },
-  "77": {
-    "name": "ChannelId",
-    "author": "Mantikafasi",
-    "description": "Shows channel IDs in the header.",
-    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/ChannelId.zip"
-  },
-  "78": {
-    "name": "CopyRoleID",
-    "author": "Mantikafasi",
-    "description": "Adds a button to copy role IDs.",
-    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/CopyRoleID.zip"
-  },
-  "79": {
-    "name": "Don'tTyping",
-    "author": "Mantikafasi",
-    "description": "Prevents sending typing indicators.",
-    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/Don'tTyping.zip"
-  },
-  "80": {
-    "name": "GhostMode",
-    "author": "Mantikafasi",
-    "description": "Enables several privacy features at once.",
-    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/GhostMode.zip"
-  },
-  "81": {
-    "name": "HideYourSide",
-    "author": "Mantikafasi",
-    "description": "Hide UI elements you don't use.",
-    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/HideYourSide.zip"
-  },
-  "82": {
-    "name": "JoinDate",
-    "author": "Mantikafasi",
-    "description": "Shows when a user joined the server.",
-    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/JoinDate.zip"
-  },
-  "83": {
-    "name": "MessageDumps",
-    "author": "Mantikafasi",
-    "description": "Alternative message dumping tool.",
-    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/MessageDumps.zip"
-  },
-  "84": {
-    "name": "NoBlockedMessages",
-    "author": "Mantikafasi",
-    "description": "Removes the 'Blocked Message' placeholder.",
-    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/NoBlockedMessages.zip"
-  },
-  "85": {
+  {
+    "id": "x6",
     "name": "PluginRepo",
-    "author": "Mantikafasi",
-    "description": "Adds a repository for plugins within Aliucord.",
-    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/PluginRepo.zip"
-  },
-  "86": {
-    "name": "ShowBadges",
-    "author": "Mantikafasi",
-    "description": "Shows all user badges in chat.",
-    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/ShowBadges.zip"
-  },
-  "87": {
-    "name": "StatusIcon",
-    "author": "Mantikafasi",
-    "description": "Adds status icons to user avatars.",
-    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/StatusIcon.zip"
-  },
-  "88": {
-    "name": "VibrateOnMention",
-    "author": "Mantikafasi",
-    "description": "Vibrate phone when mentioned.",
-    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/VibrateOnMention.zip"
-  },
-  "89": {
-    "name": "AvatarStealer",
-    "author": "Tropical",
-    "description": "Easy way to save user avatars.",
-    "url": "https://raw.githubusercontent.com/TropicalShadow/AliucordPlugins/builds/AvatarStealer.zip"
-  },
-  "90": {
-    "name": "CustomMessageFonts",
-    "author": "Tropical",
-    "description": "Change fonts in chat.",
-    "url": "https://raw.githubusercontent.com/TropicalShadow/AliucordPlugins/builds/CustomMessageFonts.zip"
-  },
-  "91": {
-    "name": "EmojiUtill",
-    "author": "Tropical",
-    "description": "Tools for managing and viewing emojis.",
-    "url": "https://raw.githubusercontent.com/TropicalShadow/AliucordPlugins/builds/EmojiUtill.zip"
-  },
-  "92": {
-    "name": "LinkShortener",
-    "author": "Tropical",
-    "description": "Shorten links before sending.",
-    "url": "https://raw.githubusercontent.com/TropicalShadow/AliucordPlugins/builds/LinkShortener.zip"
-  },
-  "93": {
-    "name": "RelationshipNotifier",
-    "author": "Tropical",
-    "description": "Notifies you when someone removes you from friends.",
-    "url": "https://raw.githubusercontent.com/TropicalShadow/AliucordPlugins/builds/RelationshipNotifier.zip"
-  },
-  "94": {
-    "name": "SpotifyControls",
-    "author": "Tropical",
-    "description": "Control Spotify from within Discord.",
-    "url": "https://raw.githubusercontent.com/TropicalShadow/AliucordPlugins/builds/SpotifyControls.zip"
-  },
-  "95": {
-    "name": "Translate",
-    "author": "Tropical",
-    "description": "Alternative translation plugin.",
-    "url": "https://raw.githubusercontent.com/TropicalShadow/AliucordPlugins/builds/Translate.zip"
+    "author": "X1nto",
+    "repo": "X1nto/AliucordPlugins",
+    "downloadUrl": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/PluginRepo.zip",
+    "desc": "Interface nativa otimizada para download e gerenciamento direto de plugins comunitários.",
+    "tags": [
+      "Essencial",
+      "Sistema"
+    ]
   }
-}
+]
